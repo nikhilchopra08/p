@@ -62,12 +62,13 @@ const AboutSection = () => {
   return (
     <section className='text-white'>
     <div className='md:grid md:grid-cols-2 gap-8 items-center oy-8 px-4 xl:gap-16 sm:py:16'>
-        <Image src="/Images/about.png" width={500} height={500}/>
+        <Image src="/Images/about.png" width={500} height={500} alt="About Me" />
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4 '>About Me</h2>
-            <p className='text-base lg:text-lg '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur officiis, veniam quasi illo quisquam sapiente cupiditate eaque vero ab blanditiis ea, voluptatum id, maxime facilis vitae? Quasi quia ducimus pariatur?
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, doloribus. Incidunt iure ratione illo velit libero nulla, quaerat exercitationem, ex et, nobis numquam eum itaque doloribus doloremque corporis inventore ab?
-            </p>
+            <p className='text-base lg:text-lg'>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur officiis, veniam quasi illo quisquam sapiente cupiditate eaque vero ab blanditiis ea, voluptatum id, maxime facilis vitae? Quasi quia ducimus pariatur?
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, doloribus. Incidunt iure ratione illo velit libero nulla, quaerat exercitationem, ex et, nobis numquam eum itaque doloribus doloremque corporis inventore ab?
+</p>
             <div className='flex flex-row justify-start mt-8'>
                 <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
                     {" "}

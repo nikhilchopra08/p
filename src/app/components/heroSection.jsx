@@ -10,7 +10,7 @@ const HeroSection = () => {
         <motion.div initial={{ opacity: 0, scale: 0.5}} animate={{ opacity: 1, scale: 1}} transition={{ duration: 0.5}} className='col-span-7 place-content-center text-center sm:text-left'>
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-purple-900">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
